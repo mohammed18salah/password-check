@@ -1,0 +1,58 @@
+/* Created by Mohammed salah*/
+
+body {
+    margin:0; padding:3px;
+    box-sizing:border-box;
+    user-select:none;
+    font-family: 'Aleo', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#set {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 10px;
+}
+#count {
+    color: #000;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#see {
+    color: gray;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+input[id='password'] {
+    border: none;
+    width: 80%;
+    outline: none;
+    border-bottom: 5px solid #efefef;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 20px;
+    transition-duration: 600ms;
+}
+i {
+    font-size: 23px;
+    transition-duration: 600ms;    
+}
+.check {
+    color: tomato;
+    font-size: 18px;
+    margin: 4%;
+    width: 92%;
+    text-align: center;
+}
+input:hover {
+    border-bottom: 5px solid #3498db;
+}
